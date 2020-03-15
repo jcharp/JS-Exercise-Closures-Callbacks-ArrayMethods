@@ -72,7 +72,8 @@ function processLength(list, callback) {
 */
 function processLastItem(stringList, callback) {
     let x = stringList.length -1;
-  return callback(x);
+    const item = stringList[x];
+  return callback(item);
 
 }
 
