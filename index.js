@@ -166,10 +166,17 @@ function processDuplicateFree(/* CODE HERE ONLY AFTER COMPLETING ALL OTHER TASKS
  * 
  * [2] Invoking `lowerCaseStrings` with `['a', 'b', 'c' ]` will return `[ 'a', 'b', 'c' ]`.
 */
-function lowerCaseStrings(/* code here */) {
-  /* code here */
-}
+function lowerCaseStrings(strings) {
 
+ 
+ }
+  
+    
+
+    
+      
+
+  
 /**
  * ### Challenge `isItAnApple`
  * 
@@ -185,8 +192,8 @@ function lowerCaseStrings(/* code here */) {
  * 
  * [2] Invoking `isItAnApple` with `['a', 'b', 'c' ]` will return `[ false, false, false ]`.
 */
-function isItAnApple(/* code here */) {
-  /* code here */
+function isItAnApple(stings) {
+  
 }
 
 /**
