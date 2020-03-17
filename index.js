@@ -199,15 +199,15 @@ function lowerCaseStrings(strings) {
  * 
  * [2] Invoking `isItAnApple` with `['a', 'b', 'c' ]` will return `[ false, false, false ]`.
 */
-function isItAnApple(arr) {
-  const results = arr.map()
-  arr.map((arr) => {
+function isItAnApple(strings) {
+  const results = strings.map((string1) => { 
 
-    if (arr==="apple"){
-      return "true"}
+    if (strings.map==="apple"){
+      return true}
       else {
-        return "false"}
+        return false}
       })
+      return results;
     }
   
   
