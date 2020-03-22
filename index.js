@@ -229,12 +229,12 @@ function isItAnApple(strings) {
  * [2] Invoking `removeApple` with `['a', 'b', 'c' ]` will return `[ 'a', 'b', 'c' ]`.
 */
 function removeApple(strings) {
-  strings.filter((strings) => {
+ return strings.filter((string) => {
      
-    return (strings !== "apples");
+    return (string !== "apple");
         
   });
-  return strings;
+  
 }
 /**
  * ### Challenge `stringSmash`
@@ -252,13 +252,12 @@ function removeApple(strings) {
  * [2] Invoking `stringSmash` with `['a', 'b', 'c' ]` will return `abc`.
 */
 function stringSmash(strings) {
-  strings.reduce((add, strings) => {
-
-    return (strings++);
+  
+    return strings.reduce((strings, entries) => strings.concat(entries));
   }
   
-  )
-}
+  
+
 
 // A local community center is holding a fund raising 5k fun run and has invited
 // 50 small businesses to make a small donation on their behalf for some much needed
