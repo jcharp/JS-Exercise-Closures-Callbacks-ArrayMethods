@@ -275,7 +275,7 @@ function stringSmash(strings) {
  * The full names appear in the array in the same order the runners appear in the `runners` array.
 */
 function getFullNames(runners) {
- const runner = runners.map((first_name) => {
+ const runner = runners.map((runners) => {
    return `${runners.last_name}, ${runners.first_name}`;
  });
   return runner;
