@@ -316,12 +316,14 @@ function firstNamesAllCaps(runners) {
  * @returns an array containing only the runners that use the given `tShirtSize`.
  * The runners in the array appear in the same order they appear in the `runners` array.
 */
-function getRunnersByTShirtSize(runners) {
-  const sizes = runners.filter((runner) => {
+function getRunnersByTShirtSize(runners, sizes) {
+  return runners.filter((runner) => {
   
-      return runner.tShirtSize;
+      return runner.shirt_size === sizes;
     })
-    return sizes;
+  //  return sizes;
+
+
   }
  
 
